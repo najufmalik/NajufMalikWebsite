@@ -3,7 +3,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #0c4524;
+	background-color: #fffffff;
 	text-align: left;
     	letter-spacing: 0.04em;
     	line-height: 160%;
@@ -15,7 +15,7 @@ body {
 
 body,
 h1, h3, h4, h5, .title {
-	color: #f09894;
+	color: #0c4524;
     	line-height: 145%;
     	font-weight: bold;
     	font-size: 1.75em;
@@ -23,7 +23,7 @@ h1, h3, h4, h5, .title {
 }
 
 h2 {
-	color: #fab7ae;
+	color: #245739;
 	line-height: 145%;
     	font-weight: bold;
     	font-size: 1.75em;
@@ -31,12 +31,12 @@ h2 {
 }
 
 p {
-	color: #fffffff;
+	color: #0c4524;
 }
 
 ::selection {
-	background-color: #fcd3ce;
-	color: #245739;
+	background-color: #0c4524;
+	color: #fcd3ce;
 }
 
 .container {
@@ -63,13 +63,13 @@ p {
 }
 
 a {
-	color: #fcd3ce;
+	color: #f09894;
 	text-align: center;
 }
 a:hover {
-	color: #fab7ae;
+	color: #f09894;
 	font-weight: bold;
 }
 a:visited {
-	color: #fab7ae;
+	color: #f09894;
 }
