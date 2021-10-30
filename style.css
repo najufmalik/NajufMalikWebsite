@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-	background: rgba(150, 151, 156, 0.1);
+	background: #ffcbd5;
 	cursor: pointer;
 }
 
