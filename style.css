@@ -3,7 +3,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(105,109,126,255);
+	background-color: #696d7e;
 	text-align: left;
     	letter-spacing: 0.04em;
     	line-height: 160%;
@@ -14,7 +14,7 @@ body {
 }
 
 h1, h3, h4, h5, .title {
-	color: rgba(244,174,184,255);
+	color: #f4aeb8;
     	line-height: 145%;
     	font-weight: bold;
     	font-size: 1.75em;
@@ -22,7 +22,7 @@ h1, h3, h4, h5, .title {
 }
 
 h2 {
-	color: rgba(255,203,213,255);
+	color: #ffcbd5;
 	line-height: 145%;
     	font-weight: bold;
     	font-size: 1.75em;
@@ -45,7 +45,7 @@ button {
 	border: 2px solid #96979c;
 	border-radius: 15px;
 	box-sizing: border-box;
-	color: rgba(255,230,218,255);
+	color: #ffe6da;
 	font-size: 1rem;
 	overflow: auto;
 	transition: 0.4s ease all;
@@ -102,11 +102,12 @@ button:hover {
 	line-height: 24px;
 }
 			
-			.bio br { 
-				display: block;
-				content: "";
-				height: 15px;
-			}
-			.bio.show {
-				display: block;
-			}
+.bio br { 
+	display: block;
+	content: "";
+	height: 15px;
+}
+
+.bio.show {
+	display: block;
+}
