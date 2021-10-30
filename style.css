@@ -3,7 +3,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #696d7e;
+	background-color: #ffcccb;
 	text-align: left;
     	letter-spacing: 0.04em;
     	line-height: 160%;
@@ -14,7 +14,7 @@ body {
 }
 
 h1, h3, h4, h5, .title {
-	color: #f4aeb8;
+	color: #ff8ba0;
     	line-height: 145%;
     	font-weight: bold;
     	font-size: 1.75em;
@@ -22,12 +22,21 @@ h1, h3, h4, h5, .title {
 }
 
 h2 {
-	color: #ffcbd5;
+	color: #ffa8b5;
 	line-height: 145%;
     	font-weight: bold;
     	font-size: 1.75em;
     	letter-spacing: 0.06em;
 }
+
+.links {
+	margin: 25px 0;
+}
+
+.links a:not(:last-child) {
+	padding: 0 12px 0 0;
+}
+
 button {
 	background: #fff;
 	color: #000;
@@ -35,7 +44,7 @@ button {
 }
 
 ::selection {
-	background-color: #ffe6da;
+	background-color: #ffdcd1;
 	color: #000;
 }
 
@@ -45,7 +54,7 @@ button {
 	border: 2px solid #96979c;
 	border-radius: 15px;
 	box-sizing: border-box;
-	color: #f4aeb8;
+	color: #ffdcd1;
 	font-size: 1rem;
 	overflow: auto;
 	transition: 0.4s ease all;
