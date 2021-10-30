@@ -30,17 +30,9 @@ h2 {
     	letter-spacing: 0.06em;
 }
 
-.links {
-	margin: 25px 0;
-}
-
-.links a:not(:last-child) {
-	padding: 0 12px 0 0;
-}
-
 button {
 	background: #fff;
-	color: #fff;
+	color: #96979c;
 	font-family: "Roboto Mono", monospace;
 }
 
@@ -49,6 +41,7 @@ button {
 	color: #ffffff;
 }
 
+/* button info */
 button {
 	width: 120px;
 	height: 30px;
@@ -88,16 +81,32 @@ button:hover {
 .header-frame {
 	max-width: 350px;
 }
-			
+
+.links {
+	margin: 25px 0;
+}
+
+/* links */
+.links a:not(:last-child) {
+	padding: 0 12px 0 0;
+}
+
+@media (max-width: 600px) {
+	.links {
+		text-align: center;
+	}
+}
+
+/* toggle */
 .toggler {
 	margin: 25px 0;
 }
 			
 .toggler .show {
-	border-color: #ffcbd5;
-	color: #ffcbd5;
+	border-color: #ff8ba0;
+	color: #ff8ba0;
 }
-			
+
 @media (max-width: 600px) {
 	.toggler {
 		text-align: center;
