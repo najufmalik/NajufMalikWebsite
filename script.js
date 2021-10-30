@@ -1,4 +1,17 @@
 /* Bio Buttons */
+
+let colors = ["#24d05a", "#eb4888", "#10a2f5", "#e9bc3f"];
+
+(function() {
+  setBioEventListener();
+})();
+
+function setBioEventListener() {
+  Array.from(document.getElementsByTagName("button")).forEach(e => {
+    e.addEventListener("click", bioToggle);
+  });
+}
+
 function bioToggle(e) {
   let bioType = e.target;
   let color = #f4aeb8;
