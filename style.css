@@ -13,6 +13,7 @@ body {
    	overflow-x: hidden;
 }
 
+body,
 h1, h3, h4, h5, .title {
 	color: #ff8ba0;
     	line-height: 145%;
@@ -39,7 +40,7 @@ h2 {
 
 button {
 	background: #fff;
-	color: #000;
+	color: #fff;
 	font-family: "Roboto Mono", monospace;
 }
 
@@ -54,14 +55,14 @@ button {
 	border: 2px solid #ff6863;
 	border-radius: 15px;
 	box-sizing: border-box;
-	color: #ff6863;
+	color: #ffffff;
 	font-size: 1rem;
 	overflow: auto;
 	transition: 0.4s ease all;
 }
 
 button:hover {
-	background: #ffcbd5;
+	background: #ffa8b5;
 	cursor: pointer;
 }
 
