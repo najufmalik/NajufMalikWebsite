@@ -51,10 +51,10 @@ button {
 button {
 	width: 120px;
 	height: 30px;
-	border: 2px solid #96979c;
+	border: 2px solid #ff6863;
 	border-radius: 15px;
 	box-sizing: border-box;
-	color: #ffdcd1;
+	color: #ff6863;
 	font-size: 1rem;
 	overflow: auto;
 	transition: 0.4s ease all;
