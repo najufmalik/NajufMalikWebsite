@@ -3,7 +3,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #ffcccb;
+	background-color: #bde0fe;
 	text-align: left;
     	letter-spacing: 0.04em;
     	line-height: 160%;
@@ -15,7 +15,7 @@ body {
 
 body,
 h1, h3, h4, h5, .title {
-	color: #ff8ba0;
+	color: #ffafcc;
     	line-height: 145%;
     	font-weight: bold;
     	font-size: 1.75em;
@@ -23,15 +23,19 @@ h1, h3, h4, h5, .title {
 }
 
 h2 {
-	color: #ffa8b5;
+	color: #ffc8dd;
 	line-height: 145%;
     	font-weight: bold;
     	font-size: 1.75em;
     	letter-spacing: 0.06em;
 }
 
+p {
+	color: #f1f3f5;
+}
+
 ::selection {
-	background-color: #ff8ba0;
+	background-color: #cdb4db;
 	color: #ffffff;
 }
 
@@ -100,25 +104,6 @@ tr td:nth-child(2) {
 @media (max-width: 600px) {
 	.links {
 		text-align: center;
-	}
-}
-
-/* toggle */
-.toggler {
-	margin: 25px 0;
-}
-			
-.toggler .show {
-	border-color: #ff8ba0;
-	color: #ff8ba0;
-}
-
-@media (max-width: 600px) {
-	.toggler {
-		text-align: center;
-	}
-	.toggler button {
-		margin: 5px;
 	}
 }
 			
