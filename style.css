@@ -30,33 +30,9 @@ h2 {
     	letter-spacing: 0.06em;
 }
 
-button {
-	background: #fff;
-	color: #96979c;
-	font-family: "Roboto Mono", monospace;
-}
-
 ::selection {
 	background-color: #ff8ba0;
 	color: #ffffff;
-}
-
-/* button info */
-button {
-	width: 120px;
-	height: 30px;
-	border: 2px solid #ff6863;
-	border-radius: 15px;
-	box-sizing: border-box;
-	color: #ffffff;
-	font-size: 1rem;
-	overflow: auto;
-	transition: 0.4s ease all;
-}
-
-button:hover {
-	background: #ffa8b5;
-	cursor: pointer;
 }
 
 .container {
