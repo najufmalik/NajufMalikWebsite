@@ -3,7 +3,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(255,230,218,255);
+	background-color: rgba(105,109,126,255);
 	text-align: left;
     	letter-spacing: 0.04em;
     	line-height: 160%;
@@ -13,7 +13,7 @@ body {
    	overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, .title {
+h1, h3, h4, h5, .title {
 	color: rgba(244,174,184,255);
     	line-height: 145%;
     	font-weight: bold;
@@ -21,6 +21,13 @@ h1, h2, h3, h4, h5, .title {
     	letter-spacing: 0.06em;
 }
 
+h2 {
+	color: rgba(255,203,213,255);
+	line-height: 145%;
+    	font-weight: bold;
+    	font-size: 1.75em;
+    	letter-spacing: 0.06em;
+}
 button {
 	background: #fff;
 	color: #000;
