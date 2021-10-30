@@ -84,8 +84,8 @@ button:hover {
 }
 			
 .toggler .show {
-	border-color: #eb4888;
-	color: #eb4888;
+	border-color: #ffe6da;
+	color: #ffe6da;
 }
 			
 @media (max-width: 600px) {
