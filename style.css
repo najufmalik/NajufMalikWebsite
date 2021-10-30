@@ -82,11 +82,41 @@ button:hover {
 	max-width: 350px;
 }
 
+a {
+  color: #96979c;
+}
+a:hover {
+  font-weight: bold;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+thead tr {
+  border-bottom: 3px solid #000;
+}
+
+tbody tr:not(:last-child) {
+  border-bottom: 2px solid #96979c;
+}
+
+tr td:nth-child(1) {
+  padding: 20px;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+tr td:nth-child(2) {
+  text-align: right;
+}
+
+/* links */
 .links {
 	margin: 25px 0;
 }
 
-/* links */
 .links a:not(:last-child) {
 	padding: 0 12px 0 0;
 }
