@@ -3,7 +3,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #bde0fe;
+	background-color: #fffef1;
 	text-align: left;
     	letter-spacing: 0.04em;
     	line-height: 160%;
@@ -31,11 +31,11 @@ h2 {
 }
 
 p {
-	color: #f1f3f5;
+	color: #ffb7c5;
 }
 
 ::selection {
-	background-color: #cdb4db;
+	background-color: #bde0fe;
 	color: #ffffff;
 }
 
@@ -63,10 +63,14 @@ p {
 }
 
 a {
-  color: #96979c;
+  color: #ffe3eb;
 }
 a:hover {
-  font-weight: bold;
+	color: #ffb7c5;
+	font-weight: bold;
+}
+a:visited {
+	color: #bde0fe;
 }
 
 table {
