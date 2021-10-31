@@ -54,7 +54,7 @@ p {
     background-color: #0c4524;
 }
 
-::-webkit-scrollbar-track {background-color: #fcd3ce; border-radius: 20px;}
+::-webkit-scrollbar-track {background-color: #0c4524; border-radius: 20px;}
 
 ::-webkit-scrollbar-thumb {
     background-color: #fcd3ce;
