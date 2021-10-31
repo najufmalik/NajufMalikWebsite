@@ -1,4 +1,4 @@
-/* common style */
+/* GENERAL */
 html,
 body {
 	width: 100%;
@@ -35,6 +35,30 @@ p {
 	color: #0c4524;
 }
 
+@media (max-width: 600px) {
+	.container {
+		padding: 20px;
+	}
+}
+
+a {
+	color: #f09894;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+a:hover {
+	color: #f09894;
+	font-weight: bold;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
 ::selection {
 	background-color: #0c4524;
 	color: #fcd3ce;
@@ -46,7 +70,7 @@ p {
 	max-width: 650px;
 }
 
-/*----- SCROLLBAR -----*/
+/* SCROLLBAR */
 
 ::-webkit-scrollbar {
     width: 8px; 
@@ -63,7 +87,7 @@ p {
     border-radius: 10px;
 }
 
-/*----- HEADER -----*/
+/* HEADER */
 
 header {box-sizing: border-box; width: 100%;}
 
@@ -93,13 +117,18 @@ header {box-sizing: border-box; width: 100%;}
 
 #header-right {width: calc(100% - 150px);}
 
+/* picture of me */
+
 #main-header img {
     	border-radius: 6px;
     	width: 125px;
     	height: 125px;
+	margin-top: 50px;
     	margin-right: 2em;
     	object-fit: cover;
 }
+
+/* end of picture of me */
 
 #description {margin-top: 1em;}
 #main-header nav {text-align: center;}
@@ -149,28 +178,3 @@ header .main-links a#links-button.drop-clicked {
 }
 
 /* end of header */
-
-@media (max-width: 600px) {
-	.container {
-		padding: 20px;
-	}
-}
-
-/*
-a {
-	color: #f09894;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-a:hover {
-	color: #f09894;
-	font-weight: bold;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-} */
