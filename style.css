@@ -51,13 +51,13 @@ p {
 ::-webkit-scrollbar {
     width: 8px; 
     height: 20px;
-    background-color: #0c4524;
+    background-color: #fcd3ce;
 }
 
-::-webkit-scrollbar-track {background-color: #0c4524; border-radius: 20px;}
+::-webkit-scrollbar-track {background-color: #fcd3ce; border-radius: 20px;}
 
 ::-webkit-scrollbar-thumb {
-    background-color: #fcd3ce;
+    background-color: #0c4524;
     min-height: 35px;
     min-width: 35px;
     border-radius: 10px;
@@ -98,7 +98,6 @@ header {box-sizing: border-box; width: 100%;}
     	width: 125px;
     	height: 125px;
     	margin-right: 2em;
-	horizontal-align: middle;
     	object-fit: cover;
 }
 
