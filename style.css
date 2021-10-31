@@ -121,8 +121,8 @@ header {box-sizing: border-box; width: 100%;}
 
 #main-header img {
     	border-radius: 6px;
-    	width: 125px;
-    	height: 125px;
+    	width: 150px;
+    	height: 150px;
 	margin-top: 70px;
     	margin-right: 2em;
     	object-fit: cover;
