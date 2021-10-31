@@ -156,6 +156,7 @@ header .main-links a#links-button.drop-clicked {
 	}
 }
 
+/*
 a {
 	color: #f09894;
 	-webkit-transition: all 0.3s;
@@ -172,4 +173,4 @@ a:hover {
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-}
+} */
