@@ -1,9 +1,16 @@
 /* BIO BUTTON */
+var clicked = false;
+
 function displayBio() {
-  //let printBio = document.querySelector("#about");
-  document.getElementById("about").style.display = "block";
+  if(clicked)
+  {
+    document.getElementById("about").style.display = "none";
+  }
+  
+  else
+  {
+    document.getElementById("about").style.display = "block";
+  }
+  clicked = !clicked;
 }
 
-function hideBio() {
-  document.getElementById("about").style.display = "none";
-}
