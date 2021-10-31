@@ -151,6 +151,7 @@ header .main-links a svg, header #btop a svg {
     	height: 1.0em;
     	display: inline-block;
     	vertical-align: middle;
+	text-decoration: none;
 }
 
 header .main-links a#links-button {
