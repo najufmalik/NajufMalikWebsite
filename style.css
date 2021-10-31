@@ -31,13 +31,6 @@ h2 {
     	letter-spacing: 0.06em;
 }
 
-img {
-    margin: 0;
-    display: block;
-    height: auto;
-    max-width: 100%;
-}
-
 p {
 	color: #0c4524;
 }
@@ -81,6 +74,8 @@ header {box-sizing: border-box; width: 100%;}
     align-items: flex-start;
 }
 
+#header-right {width: calc(100% - 150px);}
+
 #main-header img {
     border-radius: 6px;
     width: 125px;
@@ -102,17 +97,17 @@ header nav a {
 }
 
 /* HEADER BUTTONS */
-header .main-links, .dropbtn a {background-color: #0c4524; color: #f09894;}
-header .main-links, .dropbtn a:hover {background-color: #ffffffff;}
+header .main-links a {background-color: #0c4524; color: #f09894;}
+header .main-links a:hover {background-color: #ffffffff;}
 
-header .main-links, .dropbtn a svg, header #btop a svg {
+header .main-links a svg, header #btop a svg {
     width: 1.5em;
     height: 1.5em;
     display: inline-block;
     vertical-align: middle;
 }
 
-header .main-links, .dropbtn a#links-button {
+header .main-links a#links-button {
     padding: 0.5em 0.7em; 
     cursor: pointer;
     -webkit-transition: all 0.5s;
@@ -122,7 +117,7 @@ header .main-links, .dropbtn a#links-button {
     transition: all 0.5s;
 }
 
-header .main-links, .dropbtn a#links-button.drop-clicked {
+header .main-links a#links-button.drop-clicked {
     background-color: {color:nav link hover};
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
