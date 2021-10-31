@@ -102,17 +102,17 @@ header nav a {
 }
 
 /* HEADER BUTTONS */
-header .main-links a {background-color: #0c4524; color: #f09894;}
-header .main-links a:hover {background-color: #ffffffff;}
+header .main-links, .dropbtn a {background-color: #0c4524; color: #f09894;}
+header .main-links, .dropbtn a:hover {background-color: #ffffffff;}
 
-header .main-links a svg, header #btop a svg {
+header .main-links, .dropbtn a svg, header #btop a svg {
     width: 1.5em;
     height: 1.5em;
     display: inline-block;
     vertical-align: middle;
 }
 
-header .main-links a#links-button {
+header .main-links, .dropbtn a#links-button {
     padding: 0.5em 0.7em; 
     cursor: pointer;
     -webkit-transition: all 0.5s;
@@ -122,7 +122,7 @@ header .main-links a#links-button {
     transition: all 0.5s;
 }
 
-header .main-links a#links-button.drop-clicked {
+header .main-links, .dropbtn a#links-button.drop-clicked {
     background-color: {color:nav link hover};
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
@@ -136,9 +136,10 @@ header .main-links a#links-button.drop-clicked {
     transition: all 0.5s;
 }
 
-/* DROPDOWN BUTTON */
-header .dropbtn {
-  background-color: {color:nav link hover};
+/* OLD DROPDOWN BUTTON */
+/* header .dropbtn {
+	background-color: #0c4524;
+	color: #f09894;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -ms-transition: rotate(270deg);
@@ -149,35 +150,35 @@ header .dropbtn {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-}
+} */
 
 /* Dropdown button on hover & focus */
 header .dropbtn:hover, .dropbtn:focus {
-  background-color: #ffffffff;
+  	background-color: #ffffffff;
 }
 
 /* The container <div> - needed to position the dropdown content */
 header .dropdown {
-  position: relative;
-  display: inline-block;
+	position: relative;
+  	display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 header .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #0c4524;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  	display: none;
+  	position: absolute;
+  	background-color: #0c4524;
+  	min-width: 160px;
+ 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 	z-index: 1;
 }
 
 /* Links inside the dropdown */
 header .dropdown-content a {
-  color: #f09894;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+  	color: #f09894;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
 }
 
 /* Change color of dropdown links on hover */
