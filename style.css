@@ -94,11 +94,12 @@ header {box-sizing: border-box; width: 100%;}
 #header-right {width: calc(100% - 150px);}
 
 #main-header img {
-    border-radius: 6px;
-    width: 125px;
-    height: 125px;
-    margin-right: 2em;
-    object-fit: cover;
+    	border-radius: 6px;
+    	width: 125px;
+    	height: 125px;
+    	margin-right: 2em;
+	horizontal-align: middle;
+    	object-fit: cover;
 }
 
 #description {margin-top: 1em;}
@@ -106,11 +107,11 @@ header {box-sizing: border-box; width: 100%;}
 #main-header .main-links {margin-top: 2em;}
 
 header nav a {
-    padding: 0.5em 1em;
-    box-sizing: border-box;
-    display: inline-block;
-    border-radius: 2em;
-    margin: 0.5em;
+    	padding: 0.5em 1em;
+    	box-sizing: border-box;
+    	display: inline-block;
+    	border-radius: 2em;
+    	margin: 0.5em;
 }
 
 /* HEADER BUTTONS */
@@ -118,34 +119,34 @@ header .main-links a {background-color: #0c4524; color: #f09894;}
 header .main-links a:hover {background-color: #ffffffff;}
 
 header .main-links a svg, header #btop a svg {
-    width: 1.5em;
-    height: 1.5em;
-    display: inline-block;
-    vertical-align: middle;
+    	width: 1.5em;
+    	height: 1.5em;
+    	display: inline-block;
+    	vertical-align: middle;
 }
 
 header .main-links a#links-button {
-    padding: 0.5em 0.7em; 
-    cursor: pointer;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+    	padding: 0.5em 0.7em; 
+    	cursor: pointer;
+    	-webkit-transition: all 0.5s;
+    	-moz-transition: all 0.5s;
+    	-ms-transition: all 0.5s;
+    	-o-transition: all 0.5s;
+    	transition: all 0.5s;
 }
 
 header .main-links a#links-button.drop-clicked {
-    background-color: {color:nav link hover};
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -ms-transition: rotate(270deg);
-    -o-transition: rotate(270deg);
-    transform: rotate(270deg);
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+    	background-color: {color:nav link hover};
+    	-webkit-transform: rotate(270deg);
+    	-moz-transform: rotate(270deg);
+    	-ms-transition: rotate(270deg);
+    	-o-transition: rotate(270deg);
+    	transform: rotate(270deg);
+    	-webkit-transition: all 0.5s;
+    	-moz-transition: all 0.5s;
+    	-ms-transition: all 0.5s;
+    	-o-transition: all 0.5s;
+    	transition: all 0.5s;
 }
 
 /* end of header */
@@ -172,7 +173,4 @@ a:hover {
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-}
-a:visited {
-	color: #f09894;
 }
