@@ -1,5 +1,8 @@
 /* BIO BUTTON */
-function displayResult() {
-  let printBio = document.querySelector("#about");
-  document.getElementById("bio").innerHTML = printBio;
+function displayBio() {
+  //let printBio = document.querySelector("#about");
+  if(document.getElementById("bio").clicked == true)
+  {
+    document.getElementById("about").style.display = "block";
+  }
 }
