@@ -31,8 +31,12 @@ h2 {
     	letter-spacing: 0.06em;
 }
 
-p {
+/* the about me text */
+#about {
 	color: #0c4524;
+	font-size: 1.00em;
+    	letter-spacing: 0.06em;
+	display: none;
 }
 
 @media (max-width: 600px) {
