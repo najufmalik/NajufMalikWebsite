@@ -132,20 +132,20 @@ header .main-links a#links-button.drop-clicked {
 }
 
 /* OLD DROPDOWN BUTTON */
-/* header .dropbtn {
+header .dropbtn {
 	background-color: #0c4524;
 	color: #f09894;
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -ms-transition: rotate(270deg);
-    -o-transition: rotate(270deg);
-    transform: rotate(270deg);
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-} */
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transition: rotate(270deg);
+	-o-transition: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
 
 /* Dropdown button on hover & focus */
 header .dropbtn:hover, .dropbtn:focus {
@@ -179,7 +179,7 @@ header .dropdown-content a {
 /* Change color of dropdown links on hover */
 header .dropdown-content a:hover {background-color: #ffffffff}
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+/* Show the dropdown menu */
 header .show {display:block;}
 
 /* OLD HEADER INFO
