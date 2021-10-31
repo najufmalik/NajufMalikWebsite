@@ -1,3 +1,4 @@
+/* common style */
 html,
 body {
 	width: 100%;
@@ -30,6 +31,13 @@ h2 {
     	letter-spacing: 0.06em;
 }
 
+img {
+    margin: 0;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
 p {
 	color: #0c4524;
 }
@@ -53,7 +61,7 @@ header {box-sizing: border-box; width: 100%;}
     position: relative;
     border-radius: 15px;
     overflow: hidden;
-    background-color: {color:posts};
+    background-color: #fab7ae;
     z-index: 5;
 }
 
@@ -93,8 +101,8 @@ header nav a {
     margin: 0.5em;
 }
 
-eader .main-links a {background-color: {color:nav link background}; color: {color:nav link text};}
-header .main-links a:hover {background-color: {color:nav link hover};}
+header .main-links a {background-color: #0c4524; color: #f09894;}
+header .main-links a:hover {background-color: #ffffffff;}
 
 header .main-links a svg, header #btop a svg {
     width: 1.5em;
