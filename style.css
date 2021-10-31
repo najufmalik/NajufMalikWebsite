@@ -45,30 +45,122 @@ p {
 	max-width: 650px;
 }
 
+/*----- HEADER -----*/
+
+header {box-sizing: border-box; width: 100%;}
+
+#main-header {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: {color:posts};
+    z-index: 5;
+}
+
+#header-content {padding: 2.5em;}
+
+#main-header::after {
+    content: '';
+    background: linear-gradient(to right, {color:gradient 1}, {color:gradient 2});
+    width: 100%;
+    height: 4px;
+    display: block;
+}
+
+#header-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#main-header img {
+    border-radius: 6px;
+    width: 125px;
+    height: 125px;
+    margin-right: 2em;
+    object-fit: cover;
+}
+
+#description {margin-top: 1em;}
+#main-header nav {text-align: center;}
+#main-header .main-links {margin-top: 2em;}
+
+header nav a {
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 2em;
+    margin: 0.5em;
+}
+
+eader .main-links a {background-color: {color:nav link background}; color: {color:nav link text};}
+header .main-links a:hover {background-color: {color:nav link hover};}
+
+header .main-links a svg, header #btop a svg {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .main-links a#links-button {
+    padding: 0.5em 0.7em; 
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+header .main-links a#links-button.drop-clicked {
+    background-color: {color:nav link hover};
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transition: rotate(270deg);
+    -o-transition: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+header .drop-links {margin-top: 0.25em; display: none;} 
+
+header .drop-links a {
+    border: 2px solid {color:nav link hover};
+    color: {color:nav link text};
+    padding: 0.25em 0.75em;
+}
+
+header .drop-links a:hover {background-color: {color:nav link background}; border: 2px solid {color:nav link background};}
+
+/* end of header */
+
 @media (max-width: 600px) {
 	.container {
 		padding: 20px;
 	}
 }
 
-.header-section {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-.header-frame {
-	max-width: 350px;
-}
-
 a {
 	color: #f09894;
-	text-align: center;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 a:hover {
 	color: #f09894;
 	font-weight: bold;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 a:visited {
 	color: #f09894;
