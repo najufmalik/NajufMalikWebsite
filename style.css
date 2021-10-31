@@ -147,15 +147,21 @@ header nav a {
 }
 
 /* HEADER BUTTONS */
-header .main-links a {background-color: #0c4524; color: #f09894;}
-header .main-links a:hover {background-color: #ffffffff;}
+header .main-links a {
+	background-color: #0c4524; 
+	color: #f09894;
+	text-decoration: none;
+}
+header .main-links a:hover {
+	background-color: #ffffffff;
+	text-decoration: none;
+}
 
 header .main-links a svg, header #btop a svg {
     	width: 1.0em;
     	height: 1.0em;
     	display: inline-block;
     	vertical-align: middle;
-	text-decoration: none;
 }
 
 header .main-links a#links-button {
