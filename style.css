@@ -46,6 +46,8 @@ p {
 	max-width: 650px;
 }
 
+/*----- SCROLLBAR -----*/
+
 ::-webkit-scrollbar {
     width: 8px; 
     height: 20px;
@@ -55,7 +57,7 @@ p {
 ::-webkit-scrollbar-track {background-color: #0c4524; border-radius: 20px;}
 
 ::-webkit-scrollbar-thumb {
-    background-color: #0c4524;
+    background-color: #fcd3ce;
     min-height: 35px;
     min-width: 35px;
     border-radius: 10px;
