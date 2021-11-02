@@ -149,7 +149,7 @@ header {box-sizing: border-box; width: 100%;}
 header nav a {
     	padding: 0.5em 1em;
     	box-sizing: border-box;
-    	display: inline;
+    	display: inline-block;
     	border-radius: 2em;
     	margin: 0.5em;
 }
@@ -168,7 +168,7 @@ header .main-links a:hover {
 header .main-links a svg, header #btop a svg {
     	width: 1.0em;
     	height: 1.0em;
-    	display: inline;
+    	display: inline-block;
     	vertical-align: middle;
 }
 
