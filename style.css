@@ -47,20 +47,20 @@ h2 {
 
 a {
 	color: #f09894;
-	-webkit-transition: all 0.3s;
+	/* -webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s; */
 }
 a:hover {
 	color: #f09894;
 	font-weight: bold;
-	-webkit-transition: all 0.3s;
+	/* -webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	-o-transition: all 0.3s; 
+	transition: all 0.3s; */
 }
 
 ::selection {
@@ -119,7 +119,9 @@ header {box-sizing: border-box; width: 100%;}
     align-items: flex-start;
 }
 
-#header-right {width: calc(100% - 150px);}
+#header-right {
+	width: calc(100% - 150px);
+}
 
 /* picture of me */
 
@@ -134,14 +136,20 @@ header {box-sizing: border-box; width: 100%;}
 
 /* end of picture of me */
 
-#description {margin-top: 1em;}
-#main-header nav {text-align: center;}
-#main-header .main-links {margin-top: 2em;}
+#description {
+	margin-top: 1em;
+}
+#main-header nav {
+	text-align: center;
+}
+#main-header .main-links {
+	margin-top: 2em;
+}
 
 header nav a {
     	padding: 0.5em 1em;
     	box-sizing: border-box;
-    	display: inline-block;
+    	display: inline;
     	border-radius: 2em;
     	margin: 0.5em;
 }
@@ -160,23 +168,23 @@ header .main-links a:hover {
 header .main-links a svg, header #btop a svg {
     	width: 1.0em;
     	height: 1.0em;
-    	display: inline-block;
+    	display: inline;
     	vertical-align: middle;
 }
 
 header .main-links a#links-button {
     	padding: 0.5em 0.7em; 
     	cursor: pointer;
-    	-webkit-transition: all 0.5s;
+    	/* -webkit-transition: all 0.5s;
     	-moz-transition: all 0.5s;
     	-ms-transition: all 0.5s;
     	-o-transition: all 0.5s;
-    	transition: all 0.5s;
+    	transition: all 0.5s; */
 }
 
 header .main-links a#links-button.drop-clicked {
     	background-color: {color:nav link hover};
-    	-webkit-transform: rotate(270deg);
+    	/*-webkit-transform: rotate(270deg);
     	-moz-transform: rotate(270deg);
     	-ms-transition: rotate(270deg);
     	-o-transition: rotate(270deg);
@@ -185,7 +193,7 @@ header .main-links a#links-button.drop-clicked {
     	-moz-transition: all 0.5s;
     	-ms-transition: all 0.5s;
     	-o-transition: all 0.5s;
-    	transition: all 0.5s;
+    	transition: all 0.5s; */
 }
 
 /* end of header */
