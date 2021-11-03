@@ -150,6 +150,7 @@ header nav a {
     	padding: 0.5em 1em;
     	box-sizing: border-box;
     	display: inline-block;
+	text-align: center;
     	border-radius: 2em;
     	margin: 0.5em;
 }
@@ -169,6 +170,7 @@ header .main-links a svg, header #btop a svg {
     	width: 1.0em;
     	height: 1.0em;
     	display: inline-block;
+	/* text-align: center; */
     	vertical-align: middle;
 }
 
