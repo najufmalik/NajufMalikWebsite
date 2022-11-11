@@ -7,7 +7,7 @@ html,
 }
 
 .header-links a {
-  float: left;
+  float: right;
   color: #354F52;
   padding: 16px;
   text-decoration: none;
