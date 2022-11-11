@@ -3,28 +3,14 @@ html,
   overflow: hidden;
   background-color: #52796F;
   color: #CAD2C5;
-  padding-bottom: 30px;
   font-size: 10px;
   position: fixed;
   width: 100%;
 }
 
-.header h1 {
-    text-align: right;
-}
 
-.verticle-menu {
-  list-style-type: none;
-  margin: 0;
-  padding-top: 80px;
-  width: 10%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
 /* Style the header links */
-li a {
+.header-links a {
   float: left;
   color: #354F52;
   padding: 16px;
@@ -34,7 +20,7 @@ li a {
   border-radius: 4px;
 }
 
-li a:hover {
+.header-links a:hover {
   background-color: #CAD2C5;
   color: #354F52;
 }
