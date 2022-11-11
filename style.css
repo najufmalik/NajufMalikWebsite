@@ -6,19 +6,35 @@ html,
   font-size: 10px;
 }
 
-.header-links a {
-  float: right;
+.header h1 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.header-links {
   color: #354F52;
   padding: 16px;
   text-decoration: none;
   font-size: 20px;
-  line-height: 25px;
-  border-radius: 4px;
+        line-height: 25px;
+	border-radius: 4px;
+	float: right;
 }
 
 .header-links a:hover {
   background-color: #CAD2C5;
   color: #354F52;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-links {
+    float: none;
+  }
 }
 /* END OF HEADER */
 
